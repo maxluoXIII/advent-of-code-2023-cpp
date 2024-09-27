@@ -114,7 +114,6 @@ int main(int argc, char** argv) {
     while (std::getline(input_stream, line)) {
         int calibration = parse_calibration_with_words(line);
         sum += calibration;
-        std::cout << line << " " << calibration << "\n";
     }
 
     std::cout << "Calibration sum: " << sum << "\n";
