@@ -4,6 +4,7 @@ project(aoc2023)
 
 find_package(Boost COMPONENTS program_options REQUIRED)
 
+add_subdirectory(common)
 add_subdirectory(day1)
 
 # Copy to source directory
